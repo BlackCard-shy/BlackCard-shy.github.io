@@ -1,0 +1,1 @@
+var posts=["2022/10/27/daily-1/","2023/10/27/casual-Essay/","2022/11/17/daily-2/","2023/01/07/daily-3/","2023/02/18/daily-4/","2023/06/15/daily-5/","2022/10/24/hello-world/","2022/10/24/test2/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
